@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿System.Console.Write("Введите число: ");
+int num = int.Parse(Console.ReadLine()!);
+
+for (int firsNum = -num; firsNum <= num; firsNum++)
+{
+    System.Console.Write(firsNum + " ");
+}
